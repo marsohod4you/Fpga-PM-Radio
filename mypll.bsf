@@ -1,0 +1,131 @@
+/*
+WARNING: Do NOT edit the input and output ports in this file in a text
+editor if you plan to continue editing the block that represents it in
+the Block Editor! File corruption is VERY likely to occur.
+*/
+/*
+Copyright (C) 2016  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel MegaCore Function License Agreement, or other 
+applicable license agreement, including, without limitation, 
+that your use is for the sole purpose of programming logic 
+devices manufactured by Intel and sold by Intel or its 
+authorized distributors.  Please refer to the applicable 
+agreement for further details.
+*/
+(header "symbol" (version "1.2"))
+(symbol
+	(rect 0 0 440 240)
+	(text "mypll" (rect 202 0 238 16)(font "Arial" (font_size 10)))
+	(text "inst" (rect 8 224 25 236)(font "Arial" ))
+	(port
+		(pt 0 72)
+		(input)
+		(text "inclk0" (rect 0 0 31 14)(font "Arial" (font_size 8)))
+		(text "inclk0" (rect 4 56 36 71)(font "Arial" (font_size 8)))
+		(line (pt 0 72)(pt 152 72))
+	)
+	(port
+		(pt 0 96)
+		(input)
+		(text "areset" (rect 0 0 36 14)(font "Arial" (font_size 8)))
+		(text "areset" (rect 4 80 38 95)(font "Arial" (font_size 8)))
+		(line (pt 0 96)(pt 152 96))
+	)
+	(port
+		(pt 0 120)
+		(input)
+		(text "phasecounterselect[2..0]" (rect 0 0 141 14)(font "Arial" (font_size 8)))
+		(text "phasecounterselect[2..0]" (rect 4 104 145 119)(font "Arial" (font_size 8)))
+		(line (pt 0 120)(pt 152 120)(line_width 3))
+	)
+	(port
+		(pt 0 144)
+		(input)
+		(text "phaseupdown" (rect 0 0 82 14)(font "Arial" (font_size 8)))
+		(text "phaseupdown" (rect 4 128 81 143)(font "Arial" (font_size 8)))
+		(line (pt 0 144)(pt 152 144))
+	)
+	(port
+		(pt 0 168)
+		(input)
+		(text "phasestep" (rect 0 0 60 14)(font "Arial" (font_size 8)))
+		(text "phasestep" (rect 4 152 62 167)(font "Arial" (font_size 8)))
+		(line (pt 0 168)(pt 152 168))
+	)
+	(port
+		(pt 0 192)
+		(input)
+		(text "scanclk" (rect 0 0 43 14)(font "Arial" (font_size 8)))
+		(text "scanclk" (rect 4 176 47 191)(font "Arial" (font_size 8)))
+		(line (pt 0 192)(pt 152 192))
+	)
+	(port
+		(pt 440 72)
+		(output)
+		(text "c0" (rect 0 0 14 14)(font "Arial" (font_size 8)))
+		(text "c0" (rect 422 56 434 71)(font "Arial" (font_size 8)))
+	)
+	(port
+		(pt 440 96)
+		(output)
+		(text "c1" (rect 0 0 14 14)(font "Arial" (font_size 8)))
+		(text "c1" (rect 422 80 432 95)(font "Arial" (font_size 8)))
+	)
+	(port
+		(pt 440 120)
+		(output)
+		(text "phasedone" (rect 0 0 63 14)(font "Arial" (font_size 8)))
+		(text "phasedone" (rect 373 104 434 119)(font "Arial" (font_size 8)))
+	)
+	(port
+		(pt 440 144)
+		(output)
+		(text "locked" (rect 0 0 36 14)(font "Arial" (font_size 8)))
+		(text "locked" (rect 398 128 434 143)(font "Arial" (font_size 8)))
+	)
+	(drawing
+		(text "MAX 10" (rect 388 221 814 456)(font "Arial" ))
+		(text "inclk0 frequency: 100.000 MHz" (rect 162 115 488 244)(font "Arial" ))
+		(text "Operation Mode: Normal" (rect 162 131 456 276)(font "Arial" ))
+		(text "Clk " (rect 163 156 344 326)(font "Arial" ))
+		(text "Ratio" (rect 188 156 403 326)(font "Arial" ))
+		(text "Ph (dg)" (rect 221 156 480 326)(font "Arial" ))
+		(text "DC (%)" (rect 265 156 568 326)(font "Arial" ))
+		(text "c0" (rect 167 173 345 360)(font "Arial" ))
+		(text "1/1" (rect 194 173 401 360)(font "Arial" ))
+		(text "4.09" (rect 229 173 480 360)(font "Arial" ))
+		(text "50.00" (rect 270 173 569 360)(font "Arial" ))
+		(text "c1" (rect 167 190 343 394)(font "Arial" ))
+		(text "1/1" (rect 194 190 401 394)(font "Arial" ))
+		(text "0.00" (rect 229 190 480 394)(font "Arial" ))
+		(text "50.00" (rect 270 190 569 394)(font "Arial" ))
+		(line (pt 0 0)(pt 441 0))
+		(line (pt 441 0)(pt 441 242))
+		(line (pt 0 242)(pt 441 242))
+		(line (pt 0 0)(pt 0 242))
+		(line (pt 160 154)(pt 306 154))
+		(line (pt 160 170)(pt 306 170))
+		(line (pt 160 187)(pt 306 187))
+		(line (pt 160 204)(pt 306 204))
+		(line (pt 160 154)(pt 160 204))
+		(line (pt 185 154)(pt 185 204)(line_width 3))
+		(line (pt 218 154)(pt 218 204)(line_width 3))
+		(line (pt 262 154)(pt 262 204)(line_width 3))
+		(line (pt 305 154)(pt 305 204))
+		(line (pt 152 56)(pt 359 56))
+		(line (pt 359 56)(pt 359 224))
+		(line (pt 152 224)(pt 359 224))
+		(line (pt 152 56)(pt 152 224))
+		(line (pt 439 72)(pt 359 72))
+		(line (pt 439 96)(pt 359 96))
+		(line (pt 439 120)(pt 359 120))
+		(line (pt 439 144)(pt 359 144))
+	)
+)
