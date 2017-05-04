@@ -24,3 +24,4 @@ By the way derivative from sin(x) is cos(x).
 
 This makes possible to use Phase modulation but listen on FM radio.
 
+Full project description can be found at https://marsohod.org/projects/proekty-dlya-platy-marsokhod3/349-pm-radio-transmitter
